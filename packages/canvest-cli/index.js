@@ -24,7 +24,8 @@ const createScirpt = require('./src/createScirpt');
 		'./canvest.config.js',
 	)}`;
 
-	const wdsConfigCMD = `${!argv.debug ? '--quiet' : ''} ${
+	// TODO: replace --quiet
+	const wdsConfigCMD = `${!argv.debug ? '' : ''} ${
 		argv.pagePort ? `--port ${argv.pagePort}` : ''
 		} ${argv.ts ? `--ts ${argv.ts}` : ''}`;
 
