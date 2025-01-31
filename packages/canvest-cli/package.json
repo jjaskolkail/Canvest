@@ -1,6 +1,6 @@
 {
-  "name": "@canvest/canvest-cli",
-  "version": "1.2.4",
+  "name": "@jjaskolkail/canvest-cli",
+  "version": "1.0.0",
   "publishConfig": {
     "access": "public"
   },
@@ -34,7 +34,7 @@
     "unit-test",
     "canvest"
   ],
-  "author": "TyrealGray",
+  "author": "TyrealGray, Jason Jaskolka",
   "license": "AFL-3.0",
   "bugs": {
     "url": "https://github.com/TyrealGray/Canvest/issues"
